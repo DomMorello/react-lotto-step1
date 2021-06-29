@@ -19,7 +19,6 @@ const Input = ({ onSubmit }: lottoPriceProps) => {
         placeholder="금액을 넣어주세요"
         onChange={e => {
           setText(e.target.value);
-          console.log(text);
         }}
       />
       <input type="submit" value="구매하기" />
