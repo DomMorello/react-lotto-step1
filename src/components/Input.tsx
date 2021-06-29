@@ -5,7 +5,7 @@ interface lottoPriceProps {
 }
 
 const Input = ({ onSubmit }: lottoPriceProps) => {
-  const [text, setText] = useState("");
+  const [text, setText] = useState<string>("");
 
   return (
     <form
